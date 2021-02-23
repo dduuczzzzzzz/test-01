@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char checkbomb(char a[][], int i, int j)
+char checkbomb(char a, int i, int j)
 {
     int num=0;
     if(a[i][j]==*) return *;
